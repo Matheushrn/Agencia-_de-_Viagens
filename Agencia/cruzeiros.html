@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Travel Company</title>
+    <meta name="description" content="Generated with Layoutit" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../BOOTSTRAP/Imagens/aviao.jfif" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- container-fluid se adapta a qualquer tela -->
+    <div class="container-fluid">
+
+      <!-- Barra de navegação -->
+  <div class="row">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+
+    <!-- logo -->
+    <div class="col-6 logo">
+      <img class="img-fluid" src="../BOOTSTRAP/Imagens/logo.png" alt="Logo Agência"/>
+    </div>
+
+    
+    <a class="navbar-brand link-primary fw-bold .fs-1" aria-current="page" href="index.html">Travel Company</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="passagens.html">Passagens</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hoteis.html">Hotéis</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cruzeiros</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-primary" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  </div>
+
+  <!-- Banner estático -->
+  <div class="row">
+    <div class="col-12">
+      <img class="img-fluid Bannerestatico" src="" alt="foto de navio"/>
+    </div>
+  </div>
+<!-- Sessão Cards começa aqui -->
+
+ <!-- texto -->
+  <div class="row">
+    <div class="col-12">
+      <h1 class="promo">Cruzeiros incríveis pelo mundo</h1>
+      <h2 class="promo2">Descubra viagens no mar com conforto, lazer e experiências inesquecíveis</h2>
+    </div>
+  </div>
+
+<!-- cards  -->
+  <div class="row">
+    <div class="col-12">
+      <!-- g-3 da espaçamento entre os objetos -->
+      <div class="row g-3">
+
+         <!-- col-12 tela cheia | col-md-4 um do lado do outro
+         md - tela media
+        mobile first - será carregado para telas menores primeiro depois para telas maiores
+         -->
+      
+        <!-- card 1 -->
+        <div class="col-12 col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5>Cruzeiro Caribe Encantado</h5>
+                <p>Rio de Janeiro → Caribe • 7 noites</p>
+                <p>Piscinas, buffet completo, shows ao vivo e atividades recreativas durante toda a viagem.</p>
+                <p>A partir de <span class="preco">R$ 3.999</span></p>
+            </div>
+          </div>   
+        </div>
+
+        <!-- card 2 -->
+        <div class="col-12 col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+             <h5>Cruzeiro Mediterrâneo Encantado</h5>
+                <p>Barcelona → Roma → Atenas • 8 noites</p>
+                <p>Explore cidades históricas, gastronomia local e paisagens deslumbrantes pelo mar Mediterrâneo.</p>
+                <p>A partir de <span class="preco">R$ 5.499</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="col-12 col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5>Cruzeiro Paraíso do Caribe</h5>
+                    <p>Miami → Bahamas → Jamaica • 7 noites</p>
+                    <p>Desfrute de praias paradisíacas, águas cristalinas e experiências tropicais inesquecíveis a bordo de um navio de luxo.</p>
+                    <p>A partir de <span class="preco">R$ 4.299</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Sessão Cards termina aqui -->
+
+<!-- sessão explicativa dos cruzeiros -->
+ <h1>Tipos de Cruzeiros</h1>
+ <p>Escolha o estilo de viagem ideal para você e viva experiências únicas no mar. Cada tipo de cruzeiro oferece roteiros, ambientes e atividades diferentes, pensados para atender desde quem busca descanso até quem quer aventura e luxo.</p>
+
+<!-- Cruzeiro 1 -->
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Cruzeiros pelo Caribe
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Descubra águas cristalinas, praias paradisíacas e clima tropical durante todo o ano. Ideal para quem quer relaxar e aproveitar paisagens inesquecíveis.</strong>
+
+        <p>A partir de <span class="preco">R$ 3.999 até R$ 6.500</span></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cruzeiro 2 -->
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+       Cruzeiros pela América do Sul e Brasil
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Roteiros que exploram o litoral brasileiro e países vizinhos, com paradas em cidades históricas, praias e destinos culturais.</strong>
+        <p>A partir de <span class="preco">R$ 1.999 até R$ 3.999</span></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cruzeiro 3 -->
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Cruzeiros pela Europa
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Explore o Mediterrâneo e o Norte da Europa visitando países como Itália, Espanha, França e Grécia, com muita cultura, gastronomia e história.</strong>
+        <p>A partir de <span class="preco">R$ 4.999 até R$ 9.000</span></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cruzeiro 4 -->
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+        Cruzeiros de Luxo
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Uma experiência premium com cabines sofisticadas, gastronomia internacional, spas e serviços exclusivos para uma viagem inesquecível.</strong>
+        <p>A partir de <span class="preco">R$ 6.500 até R$ 12.000</span></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cruzeiro 5 -->
+   <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+        Cruzeiros de Expedição
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Perfeitos para quem busca aventura, explorando regiões como o Alasca ou Antártica, com contato direto com a natureza e paisagens únicas.</strong>
+        <p>A partir de <span class="preco">R$ 7.000 até R$ 13.000</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- promoções -->
+
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, suscipit. Porro sunt, sed deleniti nemo nulla ipsum rerum, doloremque, similique qui magni quae. Possimus, quo natus nihil dolor eveniet neque.
+
+<!-- faq -->
+<h1>Duvidas Frequentes</h1>
+
+ <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseSix" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+
+<!-- O que está incluso no cruzeiro -->
+
+<footer>
+  <p style="text-align:center;margin-top:30px;">Todos direitos reservados - 2026</p>
+</footer>
+</div>
+    <script src="./bootstrap.bundle.min.js"></script>
+  </body>
+</html>
